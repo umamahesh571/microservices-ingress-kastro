@@ -229,7 +229,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 
 4.7. Create EKS Cluster
-eksctl create cluster --name manohar-cluster --region ap-south-1 --node-type t2.medium --zones ap-south-1a,ap-south-1b
+eksctl create cluster --name uma-cluster --region ap-south-1 --node-type t2.medium --zones ap-south-1a,ap-south-1b
 
 4.8. Modifying the permissions
 sudo usermod -aG docker jenkins
