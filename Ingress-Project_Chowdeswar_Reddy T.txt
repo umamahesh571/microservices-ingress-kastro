@@ -169,7 +169,6 @@ Step 4: Creation of EKS Cluster
 AmazonEC2FullAccess, AmazonEKS\_CNI\_Policy, AmazonEKSClusterPolicy, AmazonEKSWorkerNodePolicy, AWSCloudFormationFullAccess, IAMFullAccess
 
 Attach the below inline policy also for the same user
-
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -181,6 +180,7 @@ Attach the below inline policy also for the same user
     }
   ]
 }
+
 
 
 4.3. Create Access Keys for the user created
